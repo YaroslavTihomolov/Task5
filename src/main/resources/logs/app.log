@@ -1,0 +1,4 @@
+2023-05-13 15:31:41,813 INFO r.n.c.t.s.KernelServer [main] create kernel server
+2023-05-13 15:31:41,815 INFO r.n.c.t.s.KernelServer [main] start server work
+2023-05-13 15:31:51,442 INFO r.n.c.t.s.ServerCommunication [Thread-0] Request to registration client
+2023-05-13 15:31:53,595 INFO r.n.c.t.s.ServerCommunication [Thread-0] Add client
