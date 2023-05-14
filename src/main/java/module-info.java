@@ -24,4 +24,7 @@ module ru.nsu.ccfit.tihomolov {
     opens ru.nsu.ccfit.tihomolov.client.view to javafx.fxml;
     exports ru.nsu.ccfit.tihomolov.client.controller;
     opens ru.nsu.ccfit.tihomolov.client.controller to javafx.fxml;
+    exports ru.nsu.ccfit.tihomolov.client.model;
+    opens ru.nsu.ccfit.tihomolov.client.model to javafx.fxml;
+    exports ru.nsu.ccfit.tihomolov.univeral_classes;
 }

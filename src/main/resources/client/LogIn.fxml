@@ -12,7 +12,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="746.0" style="-fx-background-color: #2A363F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.ccfit.tihomolov.client.LogInController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="746.0" style="-fx-background-color: #2A363F;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.ccfit.tihomolov.client.view.LogInController">
     <children>
         <Pane layoutX="36.0" layoutY="205.0" prefHeight="83.0" prefWidth="259.0">
             <children>
@@ -26,13 +26,13 @@
                 </Group>
             <ImageView fitHeight="240.0" fitWidth="195.0" layoutX="75.0" layoutY="-44.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../Users/я/Downloads/%5BCITYPNG.COM%5DChat%20Comment%20Vector%20Icon%20Transparent%20PNG%20-%201024x1024.png" />
+                  <Image url="@chat.png" />
                </image>
             </ImageView>
             </children>
         </Pane>
         <Line endX="100.0" layoutX="373.0" layoutY="254.0" rotate="90.0" startX="-150.0" stroke="#465058" strokeWidth="2.0" />
-        <TextField fx:id="name" layoutX="404.0" layoutY="143.0" prefHeight="41.0" prefWidth="248.0" promptText="Name" style="-fx-background-color: #2A363F; -fx-border-color: #465058;" stylesheets="@Login.css" />
+        <TextField fx:id="name" layoutX="404.0" layoutY="143.0" onKeyPressed="#logInKeyPressed" prefHeight="41.0" prefWidth="248.0" promptText="Name" style="-fx-background-color: #2A363F; -fx-border-color: #465058;" stylesheets="@Login.css" />
         <PasswordField layoutX="404.0" layoutY="213.0" prefHeight="41.0" prefWidth="248.0" promptText="Passwords" style="-fx-border-color: #465058; -fx-background-color: #2A363F;" stylesheets="@Login.css" />
         <JFXButton layoutX="404.0" layoutY="300.0" onAction="#logInButton" prefHeight="41.0" prefWidth="248.0" style="-fx-background-color: #29cd72;" stylesheets="@Login.css" text="LOG IN" textFill="#fbfcfc">
             <font>
